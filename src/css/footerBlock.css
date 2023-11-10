@@ -1,0 +1,73 @@
+footer{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #fff;
+}
+footer a h3{
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+      
+footer .container{
+   max-width: 1200px;
+   width: 85%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap:wrap ;
+   border-bottom: 1px solid #000;
+}
+footer .container a img{
+    width: 200px;
+   
+}
+footer .container menu{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container menu li a{
+    font-weight: 700;
+    color: #27477d;
+    transition: 0.4s;
+}
+footer .container menu li a:hover{
+    color: rgb(7, 204, 236);
+}
+footer .container .clinicAddress{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+   
+}
+footer .container .clinicAddress div{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+footer .container .clinicAddress div i{
+    margin-right: 10px;
+}
+footer .container .socialMedia{
+    display: flex;
+    
+}
+footer .container .socialMedia a {
+  font-size: 34px;
+  margin: 10px;
+  color: #27477d;
+  transition: 0.3s;
+}
+footer .container .socialMedia a:hover{
+    color:rgb(7, 204, 236);
+}

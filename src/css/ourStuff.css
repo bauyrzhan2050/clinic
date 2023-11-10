@@ -1,0 +1,74 @@
+.ourStuffBlock{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    padding-top: 20px;
+}
+.stuffSlider{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    background: #f7f7f7;
+    padding: 10px;
+}
+.stuffSlider nav{
+    width: 386px;
+    box-shadow: 0px 13px 20px 0px rgba(48, 84, 145, 0.05);
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.stuffSlider nav .slidePhoto{
+    width: 317px;
+    height: 305px;
+    margin: 0 auto;
+    margin-bottom: 20px;    
+}
+.stuffSlider nav .stuffInfo{
+    color: #27477d;
+    font-size: 24px;
+    font-weight: 450;
+    
+}
+.stuffSlider nav .slidePhoto1{
+    background: url(../img/imgServiceBlog.jpeg) no-repeat center/cover;
+    
+}
+.stuffSlider nav .slidePhoto2{
+    background: url(../img/imgSeviceBlog2.jpeg) no-repeat center/cover;
+    
+}
+.stuffSlider nav .slidePhoto3{
+    background: url(../img/imgServiceBlog3.jpeg) no-repeat center/cover;
+    
+}
+.stuffSlider nav article .spetialisation{
+    margin-top: 20px;
+    color: rgb(7, 204, 236);
+}
+.stuffSlider nav article .mainText{
+    margin-top: 20px;
+   
+}
+.stuffSlider nav article .servicesButton{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 35px;
+    border-radius: 25px;
+    background: #e7ecf8;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.stuffSlider nav article .servicesButton:hover{
+    color: #fff;
+    background: rgb(7, 204, 236);
+   
+}

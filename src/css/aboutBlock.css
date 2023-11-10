@@ -1,0 +1,60 @@
+.aboutBlock{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.aboutBlock .container{
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutBlock .container article{
+    width: 100%;
+    margin-left: 24px;
+}
+.aboutBlock .container article h3{
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    line-height: 65px;
+    color: #27477d;
+}
+.aboutBlock .container article p{
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #878a8f;
+}
+
+.aboutBlock .container article nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.aboutBlock .container article nav h2{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif; 
+    color: #27477d;
+    font-weight: 600;
+    margin-bottom: 7px;
+    
+}
+.aboutBlock .container article nav p{
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 400;
+    margin-bottom: 7px;
+    color: #878a8f;
+}
+.aboutBlock .container article nav img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    
+}

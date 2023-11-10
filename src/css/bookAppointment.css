@@ -1,0 +1,124 @@
+.bookAppointment{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bookAppointment .container{
+   max-width: 1200px;
+   width: 85%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.bookAppointment .container form{
+    background: #28477d;
+    padding: 40px;
+   text-align: center;
+   
+   height: 550px;
+}
+.bookAppointment .container form h2{
+   font-size: 36px;
+   font-weight: 700;
+   font-family: 'Quicksand', sans-serif;
+   color: #fff;
+   text-align: center;
+   margin-bottom: 15px;
+   text-align: left;
+}
+.bookAppointment .container form h3{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 30px;
+    text-align: left;
+ }
+ .bookAppointment .container form .listBlock{
+    width: 545px;
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-top: 1px solid rgba(255, 255,  255, 0.5);
+    padding-top: 30px;
+    margin-bottom: 30px;
+ }
+ .bookAppointment .container form .listBlock .select{
+    width: 257px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    position: relative;
+   
+ }
+ .bookAppointment .container form .listBlock .select span{
+    font-size: 14px;
+    color: #28477d;
+   
+ }
+ .bookAppointment .container form .listBlock .select .listOfspecialists{
+   display: none; 
+   position: absolute;
+   width: 250px;
+   top: 100%;
+   left: calc(50% - 125px);
+   z-index: 2;
+   background: #fff;
+ }
+.bookAppointment .container form .listBlock .select .listOfspecialists nav{
+   font-size: 14px;
+   color: #28477d;
+   padding: 15px;
+   border-bottom: 1px solid #28477d;
+   cursor: pointer;
+   transition: 0.3s;
+  
+ }
+ .bookAppointment .container form .listBlock .select .listOfspecialists nav:hover{
+  cursor: pointer;
+   color: aqua;
+  
+ }
+ .bookAppointment .container form .listBlock .select .listOfspecialists nav:nth-child(1){
+  
+ }
+
+ .bookAppointment .container form .listBlock .select img{
+    width: 13px;
+ }
+
+ .bookAppointment .container form .listBlock .inputElement{
+    width: 257px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+ }
+ .bookAppointment .container form .listBlock .inputElement input{
+    padding-right: 40px;
+    font-size: 14px;
+    color: #28477d;
+ }
+ .bookAppointment .container form .listBlock .inputElement input::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #28477d;
+ }
+
+ .bookAppointment .container form .listBlock .inputElement i{
+    position: absolute;
+    right: 20px;
+    font-size: 14px;
+    color: #28477d;
+ }

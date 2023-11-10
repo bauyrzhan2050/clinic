@@ -1,0 +1,63 @@
+.offerBlock{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #f7f7f7;
+}
+.offerBlock .container{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.offerBlock h2{
+    text-align: start;
+}
+.offerBlock article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.offerBlock article h3{
+    text-align: start;
+}
+.offerBlock .serviceBlock{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.offerBlock .serviceBlock div{
+    width: 366px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;   
+    box-shadow: 0px 13px 20px 0px rgba(48, 84, 145, 0.05);
+    background-color: #fff;
+    padding: 40px;
+   
+}
+.offerBlock .serviceBlock img{
+    margin-bottom: 20px;
+}
+.offerBlock .serviceBlock h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #27477d;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.offerBlock .serviceBlock div div{
+    width: 70px;
+    height: 70px;
+   
+}
+.offerBlock .serviceBlock div .mainText{
+    width: 100%;
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

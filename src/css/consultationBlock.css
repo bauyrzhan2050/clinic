@@ -1,0 +1,26 @@
+
+.consultationBlock {
+    width: 100%;
+    background: url(../img/clinic.jpg) no-repeat center/cover;
+   
+  }
+.consultationBlock .layer{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+  }
+.consultationBlock h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.consultationBlock p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
